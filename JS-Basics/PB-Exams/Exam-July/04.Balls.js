@@ -41,7 +41,7 @@ function ballsPoints(input) {
         }
 
     }
-    console.log(`Total points: ${points}`);
+    console.log(`Total points: ${Math.trunc(points)}`);
     console.log(`Points from red balls: ${redBalls}`);
     console.log(`Points from orange balls: ${orangeBalls}`);
     console.log(`Points from yellow balls: ${yellowBalls}`);
