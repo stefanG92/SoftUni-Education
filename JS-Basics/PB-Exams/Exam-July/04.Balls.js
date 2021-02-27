@@ -42,10 +42,10 @@ function ballsPoints(input) {
 
     }
     console.log(`Total points: ${points}`);
-    console.log(`Points from red balls ${redBalls}`);
-    console.log(`Points from orange balls ${orangeBalls}`);
-    console.log(`Points from yellow balls ${yellowBalls}`);
-    console.log(`Points from white balls ${whiteBalls}`);
+    console.log(`Points from red balls: ${redBalls}`);
+    console.log(`Points from orange balls: ${orangeBalls}`);
+    console.log(`Points from yellow balls: ${yellowBalls}`);
+    console.log(`Points from white balls: ${whiteBalls}`);
     console.log(`Other colors picked: ${otherBalls}`);
     console.log(`Divides from black balls: ${dividePoint}`);
 
