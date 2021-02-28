@@ -5,14 +5,9 @@ function salaryFine(input) {
     let haveSalary = true;
 
 
-    for (let i = 2; i <= tabCount; i++) {
+    for (let i = 2; i <= input.length - 1; i++) {
         let nameWebsite = input[i];
 
-        if(salary <= 0){
-            console.log("You have lost your salary.");
-            haveSalary = false;
-            break;
-        }
 
 
         if(nameWebsite === "Facebook"){
@@ -21,6 +16,13 @@ function salaryFine(input) {
             salary -= 100;
         }else if(nameWebsite === "Reddit"){
             salary -= 50;
+        }
+        
+        
+        if(salary <= 0){
+            console.log("You have lost your salary.");
+            haveSalary = false;
+            break;
         }
 
         
