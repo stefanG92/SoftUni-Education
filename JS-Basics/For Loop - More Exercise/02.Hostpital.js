@@ -8,7 +8,7 @@ function patientCount(input) {
     for (let i = 1; i <= dayCount; i++) {
         let patientsForDay = Number(input[i]);
 
-        if (i == 3) {
+        if (i % 3 == 0) {
             if (dontHelpedPatients > helpedPatients) {
                 doctorCount++;
             }
