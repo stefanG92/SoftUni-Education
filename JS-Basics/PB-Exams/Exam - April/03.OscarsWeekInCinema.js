@@ -1,8 +1,6 @@
-function income(input) {
+function income(movieName, typeOfHall,ticketsCount) {
 
-    let movieName = input[0];
-    let typeOfHall = input[1];
-    let ticketsCount = Number(input[2]);
+    ticketsCount = Number(ticketsCount);
 
     let incomeOfMovie = 0;
 
