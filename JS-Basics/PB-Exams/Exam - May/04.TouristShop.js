@@ -18,7 +18,7 @@ function moneyForShop(input) {
 
         productCounter++;
 
-        if (productCounter == 3) {
+        if (productCounter % 3 == 0) {
             productPrice = productPrice / 2;
         }
 
